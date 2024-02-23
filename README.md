@@ -10,7 +10,7 @@ This utility automates multiplayer Unity testing with FishNet and ParrelSync by 
 - ParrelSync
 
 ## Setup
-1. Ensure FishNet are properly set up in your Unity project, and your NetworkHudCanvas object have public AutoStart* methods and vars.
+1. Ensure FishNet are properly set up in your Unity project and your NetworkHudCanvas object have public AutoStart* methods and vars so this tool can controll your "NetworkManager > NetworkHudCanvas > AutoStart value.
 2. Place the provided scripts in the `Assets/Editor` directory of your Unity project.
 3. Modify the PowerShell script as needed to match your project's specific window titles.
 
